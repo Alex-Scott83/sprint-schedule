@@ -1,0 +1,17 @@
+.fechas-container {
+  display: flex;
+  flex-direction:row; /* Establece la dirección del flexbox a fila (horizontal) */
+  background-color: orange;
+  color: white;
+  padding: 0px;
+  font-weight: bold;
+  margin-right: 37px; /* Margen entre las columnas de fecha */
+  height: 50px;
+}
+
+.fecha {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid white; /* Borde blanco a la izquierda de cada columna */
+  
+}

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 36px;
+}
+
+.week-container {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.SprintNumber {
+  font-size: 24px;
+}

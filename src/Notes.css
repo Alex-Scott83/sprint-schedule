@@ -1,0 +1,22 @@
+/* Notes.css */
+.notes-container {
+    background-color: black;
+    color: white;
+    border: 2px solid orange;
+    padding: 20px;
+    height: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20 px;
+  }
+
+  /* Estilo para el título de las notas */
+  .notes-container h3 {
+    margin: 0;
+  }
+
+  /* Estilo para el texto de las notas */
+.notes-container p {
+  margin: 10;
+  text-align: left;
+}

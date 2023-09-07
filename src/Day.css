@@ -1,0 +1,23 @@
+/* Day.css */
+.day-container {
+    /*width: calc(14.28% - 20px); */ /* Divide el espacio en 7 columnas */
+
+    display: flex;
+   flex-direction:column; 
+    background-color: lightslategray;
+    border: 2px solid white; /* Borde blanco */
+  margin-right: 20px; /* Margen entre las columnas de día */
+  padding: 10px; /* Espacio interior para el contenido */
+  height: 300px; /* Establece la altura en 300px */
+  }
+
+  .day-container h3{
+    margin: 0;
+  
+    color: orange; /* Color de texto naranja */
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+
+  .day-container h3{
+font-size: 18px;
+  }
